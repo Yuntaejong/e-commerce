@@ -7,7 +7,8 @@ import styles from './Layout.module.css'
 const Layout = () => {
     return (
         <div>
-            <Header/>
+            <Header />
+            <main></main>
             <Footer/>
         </div>
     )

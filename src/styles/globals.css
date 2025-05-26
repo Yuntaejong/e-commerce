@@ -1,4 +1,12 @@
+@import './reset.css';
+@import './responsive.css';
+@import './variables.css';
+
 body {
     font-family: 'Pretendard Variable', sans-serif;
     font-size: 16px;
 }
+
+a {color:#000;}
+a:visited {text-decoration: none; color:#000;}
+button {border:none; background-color:unset;}

@@ -1,0 +1,46 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    transition: all .3s;
+    z-index: 10;
+    min-height: 100px;
+}
+
+.gnb {
+    display: flex;
+    align-items: center;
+}
+.subGnb
+.gnb.active .subGnb {
+    height:150px;
+}
+
+h1 {
+    width:170px;
+    height:40px;
+    margin:0;
+}
+
+.logo {
+    display:inline-block;
+    width:100%;
+    height: 100%;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url('../../../assets/images/Header/logo_horizontal.png') no-repeat center / contain;
+}
+
+.nav > a {
+    padding:12px 30px;
+    font-weight: 500;
+}
+
+
+.lnb {
+    display:flex;
+    align-items: center;
+    gap:15px;
+}
